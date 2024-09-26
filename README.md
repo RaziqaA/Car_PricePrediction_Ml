@@ -28,7 +28,7 @@ To set up the project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/car-price-prediction.git
+   git clone https://github.com/your-username/Car_PricePrediction_Ml
    ```
 2. **Navigate to the project directory**:
    ```bash
@@ -60,7 +60,7 @@ The linear regression model is trained using the dataset. The following steps we
 3. Training the linear regression model on the training set.
 4. Saving the trained model using Pickle for future predictions.
 
-The Pickle file (`model.pkl`) is included in the project and is loaded by the Flask application to make predictions.
+The Pickle file (`LinearRegressionModel.pkl`) is included in the project and is loaded by the Flask application to make predictions.
 
 ## Web Application
 The web application is built using Flask and Jinja2 for templating. It provides a simple interface for users to input car parameters and receive price predictions.
@@ -83,8 +83,7 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 - The dataset used for training the model.
 - Flask documentation for guidance on web development.
-- Resources for learning linear regression.
 
----
 
-Feel free to modify any sections to better fit your project specifics or personal preferences!
+
+
