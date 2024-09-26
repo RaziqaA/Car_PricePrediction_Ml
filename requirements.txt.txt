@@ -1,0 +1,26 @@
+requirements.txt
+Flask==2.1.1
+scikit-learn==1.1.1
+pandas==1.4.2
+numpy==1.22.4
+Jinja2==3.1.2
+
+This file includes:
+
+Flask: To create the web application.
+
+scikit-learn: For linear regression 
+and machine learning tasks.
+
+pandas: For data manipulation and 
+preprocessing.
+
+numpy: For numerical operations.
+
+Jinja2: Template engine used in Flask to render the frontend.
+
+To use this requirements.txt file, the user would simply run:
+
+
+
+pip install -r requirements.txt
